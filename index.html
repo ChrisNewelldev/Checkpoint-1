@@ -6,7 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Checkpoint 1</title>
-  <link rel="stylesheet" href="//cdn.materialdesignicons.com/5.4.55/css/materialdesignicons.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+    integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
     integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
@@ -35,7 +36,8 @@
       <div class="col p-0">
         <nav class="navbar navbar-expand navbar-light bg-light">
           <div class="nav navbar-nav">
-            <a class="nav-item nav-link active" href="#">🚀︁SpaceY <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link active" href="#"><i class="fas fa-rocket"></i>︁SpaceY <span
+                class="sr-only">(current)</span></a>
             <a class="nav-item nav-link" href="#">Book a trip</a>
           </div>
         </nav>
@@ -47,15 +49,53 @@
     <div class="container-fluid">
       <div class="row hero">
         <div class=col-md-4 d-flex flex-column>
-          <div class="form-group">
-            <label for=""></label>
-            <select multiple class="form-control" name="" id="">
-              <option>Name</option>
-              <option>Email</option>
-              <option>Phone</option>
-              <option>Message</option>
-            </select>
-          </div>
+          <form>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="inputEmail4">Email</label>
+                <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+              </div>
+              <div class="form-group col-md-6">
+                <label for="inputPassword4">Password</label>
+                <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="inputAddress">Address</label>
+              <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+            </div>
+            <div class="form-group">
+              <label for="inputAddress2">Address 2</label>
+              <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+            </div>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="inputCity">City</label>
+                <input type="text" class="form-control" id="inputCity">
+              </div>
+              <div class="form-group col-md-4">
+                <label for="inputState">State</label>
+                <select id="inputState" class="form-control">
+                  <option selected>Choose...</option>
+                  <option>...</option>
+                </select>
+              </div>
+              <div class="form-group col-md-2">
+                <label for="inputZip">Zip</label>
+                <input type="text" class="form-control" id="inputZip">
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label" for="gridCheck">
+                  Check me out
+                </label>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Sign in</button>
+          </form>
+
         </div>
         <div class=col-8 overlaytext>
           <h1>text over image</h1>
@@ -80,7 +120,7 @@
         </div>
 
         <div class=" col-md-8">
-          <h1>🚀 Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          <h1><i class="fas fa-rocket"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Rem quisquam, ea pariatur ipsa
             voluptatum distinctio.</h1>
           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia impedit sapiente recusandae, ratione cum
