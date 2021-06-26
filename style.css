@@ -15,11 +15,15 @@ main {
 }
 
 @media only screen and (min-width: 768px) {
-  .hero {
-    background-image: url(https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1052&q=80);
+  text {
+    display: none;
   }
 }
 
 .spill {
   bottom: -30px;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
 }

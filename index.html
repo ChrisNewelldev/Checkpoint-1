@@ -8,6 +8,9 @@
   <title>Checkpoint 1</title>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
     integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
     integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
@@ -28,13 +31,18 @@
     outline: 2px dotted forestgreen;
     outline-offset: -3px;
   }
+
+      @media (max-width: 768px) {
+        .text {
+          display: none;
+        }
 </style>
 
 <body class="debug">
   <header class="container-fluid sticky-top">
     <div class="row">
       <div class="col p-0">
-        <nav class="navbar navbar-expand navbar-light bg-light">
+        <nav class="navbar navbar-expand navbar-light bg-primary">
           <div class="nav navbar-nav">
             <a class="nav-item nav-link active" href="#"><i class="fas fa-rocket"></i>︁SpaceY <span
                 class="sr-only">(current)</span></a>
@@ -97,9 +105,9 @@
           </form>
 
         </div>
-        <div class=col-8 overlaytext>
-          <h1>text over image</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi minus illum</p>
+        <div class=col-8>
+          <h1 class="text">text over image</h1>
+          <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi minus illum</p>
         </div>
       </div>
     </div>
@@ -165,17 +173,18 @@
     <div class="container-fuild">
       <div class="row">
         <div class="col-md">
-          text
+          <h1>Lorem ipsum dolor sit.</h1>
         </div>
       </div>
       <div class="row">
         <div class="col-md">
-          text
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit aperiam consectetur doloribus accusamus esse enim dolorem quis aspernatur perspiciatis aliquid!</p>
         </div>
       </div>
     </div>
   </footer>
 
 </body>
-
+      
 </html>
+}
