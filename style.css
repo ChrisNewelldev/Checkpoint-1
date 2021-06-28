@@ -14,9 +14,15 @@ main {
   background-size: cover;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 414px) {
   text {
     display: none;
+  }
+}
+
+@media only screen and (min-width: 414px) {
+  .spill {
+    order-1
   }
 }
 
@@ -26,4 +32,18 @@ main {
 
 h1 {
   font-family: 'Playfair Display', serif;
+}
+
+.smallcard {
+  min-height: 80%;
+}
+
+.tallcard {
+  min height: 100%;
+}
+
+.spill {
+  top: 60px;
+  left: 40px;
+  width: autos;
 }
